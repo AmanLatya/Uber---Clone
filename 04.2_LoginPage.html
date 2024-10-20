@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="04.2_LoginPage.css">
+    <script>
+        function complete() {
+            let a = document.getElementById("input").value
+            alert("You want to save this number or email ::" + a);
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div><b>Uber</b></div>
+    </header>
+
+    <br><br><br><br><br><br>
+    <center>
+        <div class="login">
+            <span>What's your phone number or email?</span>
+            <br>
+            <div class="btn">
+                <input type="text" placeholder="Enter phone number or email" id="input"><br>
+                <button class="btt" onclick="complete()">Continue</button>
+                <p>---------------------------or---------------------------</p>
+                <button class="buttons" id="btn1"><img
+                        src="https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png" alt="image not found"
+                        id="imgGoogle">Continue with Google</button><br>
+                <button class="buttons" id="btn2"><img
+                        src="https://purepng.com/public/uploads/large/purepng.com-apple-logologobrand-logoiconslogos-251519938788qhgdl.png"
+                        id="imgApple" alt="image not found">Continue with Apple</button>
+                <p>---------------------------or---------------------------</p>
+                <button class="Find"><img
+                        src="https://icon-library.com/images/white-search-icon-transparent-background/white-search-icon-transparent-background-14.jpg"
+                        alt="image not found" id="imgSearch">Find my account</button><br>
+                <button class="Find"><img src="https://icon-library.com/images/qr-code-icon-png/qr-code-icon-png-2.jpg"
+                        alt="" id="imgQR">Log in with QR code</button>
+                <br><br>
+                <div class="bio">
+                    By proceeding, you consent to get calls, WhatsApp or SMS messages, including by automated means,
+                    from Uber and its affiliates to the number provided.
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>

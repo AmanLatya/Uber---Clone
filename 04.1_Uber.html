@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Side</title>
+    <link rel="stylesheet" href="04.1_Driver.css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav first" id="nav">
+            <div class="navbar" id="nav1">
+                <b>
+                    <li id="uber" onclick="document.location = '04_Uber_ride.html'">Uber</li>
+                </b>
+                <li>Ride</li>
+                <li>Drive</li>
+                <li>Business</li>
+                <li>Uber eats</li>
+                <select name="About" class="navbar" id="About">
+                    <option value="">About</option>
+                    <option value="">About us</option>
+                    <option value="">Impact</option>
+                    <option value="">Our Offering</option>
+                    <option value="">How Uber Work</option>
+                    <option value="">Sustainability</option>
+                </select>
+            </div>
+            <div class="navbar" id="nav2">
+                <li>EN</li>
+                <li>Help</li>
+                <li>Login</li>
+                <button onclick="document.location = '/04.2_LoginPage.html'" class="btn">Sign Up</button>
+            </div>
+        </ul>
+        <div class="driver">
+
+            <div id="location">
+                <div class="request">
+                    <h1>Go anywhere with<br>Uber</h1>
+                    <div>Request a ride, hop in, and go.</div>
+                    <div id="input">
+                        <div><input type="text" placeholder="Enter location"></div>
+                        <div><input type="text" name="" id="" placeholder="Enter destination"></div>
+                    </div>
+                    <div id="price"><button>See price</button></div>
+                </div>
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_558,h_698/v1684852612/assets/ba/4947c1-b862-400e-9f00-668f4926a4a2/original/Ride-with-Uber.png"
+                    alt="Ride with Uber">
+            </div>
+        </div>
+    </header>
+    <br><br><br><br><br>
+    <div id="pickup">
+        <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_558,h_558/v1684855112/assets/96/4dd3d1-94e7-481e-b28c-08d59353b9e0/original/earner-illustra.png"
+            alt="Stops group ride" role="presentation" aria-hidden="true" class="css-bGmtfz">
+        <div class="make">
+            <h1>Drive when you want, make what you need</h1>
+            Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.
+            <div id="bttn">
+                <button class="btnGet">Get started</button>
+                <button class="Already">Already you have an account?Sign in</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
